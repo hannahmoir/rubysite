@@ -19,6 +19,7 @@
 
 html, body {
   height: 100%;
+  margin: 0;
 }
 
 .navbar {
@@ -58,18 +59,12 @@ p {
 
 .page-wrap {
   min-height: 100%;
-  margin-top: 60px;
-  /* equal to footer height */
-  margin-bottom: -100px; 
+  padding-top:50px;
+  margin-bottom: -60px;
 }
-.page-wrap:after {
-  content: " ";
-  display: block;
-}
-.site-footer, .page-wrap:after {
-  height: 100px; 
-}
+
 .site-footer {
+  height: 60px; 
   background: #ffab40;
   color: #595959;
   text-align: center;
