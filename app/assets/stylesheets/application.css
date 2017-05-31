@@ -34,6 +34,7 @@ html, body {
   color:#FFF !important;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
+  font-size:1.5em;
   transition: color 600ms;
   -webkit-transition: color 600ms;
 }
@@ -68,4 +69,5 @@ p {
   background: #ffab40;
   color: #595959;
   text-align: center;
+  padding-top: 30px;
 }
