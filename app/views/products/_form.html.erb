@@ -12,8 +12,13 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :name %>
-    <%= form.text_field :name, id: :product_name %>
+    <%= form.label :album %>
+    <%= form.text_field :name, id: :product_album %>
+  </div>
+
+  <div class="field">
+    <%= form.label :artist %>
+    <%= form.text_field :name, id: :product_artist %>
   </div>
 
   <div class="field">
@@ -27,8 +32,8 @@
   </div>
 
   <div class="field">
-    <%= form.label :colour %>
-    <%= form.text_field :colour, id: :product_colour %>
+    <%= form.label :year %>
+    <%= form.number_field :year, id: :product_year %>
   </div>
 
   <div class="actions">

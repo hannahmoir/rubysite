@@ -1,8 +1,13 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
-  <%= @product.name %>
+  <strong>Album:</strong>
+  <%= @product.album %>
+</p>
+
+<p>
+  <strong>Artist:</strong>
+  <%= @product.artist %>
 </p>
 
 <p>
@@ -16,8 +21,8 @@
 </p>
 
 <p>
-  <strong>Colour:</strong>
-  <%= @product.colour %>
+  <strong>Year:</strong>
+  <%= @product.year %>
 </p>
 
 <%= link_to 'Edit', edit_product_path(@product) %> |
